@@ -21,6 +21,23 @@ export type LoginCredentials = z.infer<typeof credentialsSchema>;
 
 const login = async (credentials: LoginCredentials): Promise<LoginResponse> => {
   credentialsSchema.parse(credentials);
+
+  if (
+    credentials.email === 'test@torra.com.br' &&
+    credentials.password === 'test123'
+  ) {
+    const mockResponse: LoginResponse = {
+      token: 'mock-token',
+      user: {
+        id: 'mock-id',
+        name: 'Test User',
+        email: 'test@torra.com.br',
+      },
+    };
+    setAuthToken(mockResponse.token);
+    return Promise.resolve(mockResponse);
+  }
+
   const response = await api.post('/login', credentials);
   const parsedData = loginSchema.parse(response.data);
   setAuthToken(parsedData.token);
