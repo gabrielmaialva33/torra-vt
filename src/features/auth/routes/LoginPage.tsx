@@ -46,7 +46,7 @@ export function LoginPage() {
           animate="visible"
         >
           <div className="logo-container">
-            <img src="/assets/torra-logo.svg" alt="Lojas Torra" />
+            <img src="/assets/logos/torra-logo.svg" alt="Lojas Torra" />
           </div>
 
           <h1 className="heading">Entrar no Painel</h1>
@@ -56,7 +56,7 @@ export function LoginPage() {
               <div className="login-input-wrapper">
                 <div className="icon-container">
                   <img
-                    src="/assets/user-icon.svg"
+                    src="/assets/icons/user-icon.svg"
                     alt="User Icon"
                     className="icon"
                   />
@@ -75,7 +75,7 @@ export function LoginPage() {
               <div className="login-input-wrapper">
                 <div className="icon-container">
                   <img
-                    src="/assets/lock-icon.svg"
+                    src="/assets/icons/lock-icon.svg"
                     alt="Lock Icon"
                     className="icon"
                   />
@@ -119,13 +119,13 @@ export function LoginPage() {
         >
           <div className="illustration-logo-container">
             <img
-              src="/assets/click-and-collect-logo.svg"
+              src="/assets/logos/click-and-collect-logo.svg"
               alt="Clique e Retire"
             />
           </div>
           <div className="illustration-container">
             <motion.img
-              src="/assets/girl-avatar.svg"
+              src="/assets/images/girl-avatar.svg"
               alt="Illustration Girl"
               className="menina"
               initial={{ x: -50, opacity: 0 }}
@@ -133,7 +133,7 @@ export function LoginPage() {
               transition={{ duration: 0.8, delay: 0.6, ease: 'easeOut' }}
             />
             <motion.img
-              src="/assets/boy-avatar.svg"
+              src="/assets/images/boy-avatar.svg"
               alt="Illustration Boy"
               className="menino"
               initial={{ x: 50, opacity: 0 }}
