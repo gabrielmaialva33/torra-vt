@@ -55,12 +55,14 @@ torra-vt/
 ## 🛠️ Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone [repository-url]
    cd torra-vt
    ```
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    # or
@@ -68,6 +70,7 @@ torra-vt/
    ```
 
 3. **Start the development server**
+
    ```bash
    pnpm dev
    # or
@@ -165,19 +168,21 @@ git push origin feature/component-name
 The project is configured for easy deployment:
 
 1. **Build the project**
+
    ```bash
    pnpm build
    ```
 
 2. **Preview locally**
+
    ```bash
    pnpm preview
    ```
 
 3. **Deploy to your platform**
-    - **Vercel**: Connect the GitHub repo and deploy automatically.
-    - **Netlify**: Drag & drop the `dist` folder or connect the repo.
-    - **Custom**: Upload the `dist` folder to your server.
+   - **Vercel**: Connect the GitHub repo and deploy automatically.
+   - **Netlify**: Drag & drop the `dist` folder or connect the repo.
+   - **Custom**: Upload the `dist` folder to your server.
 
 ### Environment Variables
 
