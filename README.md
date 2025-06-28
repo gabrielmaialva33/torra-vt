@@ -1,10 +1,14 @@
 # Torra VT - Click & Retire System
 
-A modern and professional web application built with **React**, **Vite**, **Tailwind CSS**, and **shadcn-ui** for the Lojas Torra Click & Retire system. This project features a visually appealing login interface with immersive animations and a distinct brand identity.
+A modern and professional web application built with **React**, **Vite**, **Tailwind CSS**, and **shadcn-ui** for the
+Lojas Torra Click & Retire system. This project features a visually appealing login interface with immersive animations
+and a distinct brand identity.
 
 ## 🎨 Design Philosophy
 
-The application embodies a unique visual identity inspired by the [Figma design](https://www.figma.com/design/xCCqMmngtZ6G8symsyJ7O5/Sistema-Clique-e-Retira?node-id=25-2772&t=cBYxPyMJrrNlzclz-4), featuring:
+The application embodies a unique visual identity inspired by
+the [Figma design](https://www.figma.com/design/xCCqMmngtZ6G8symsyJ7O5/Sistema-Clique-e-Retira?node-id=25-2772&t=cBYxPyMJrrNlzclz-4),
+featuring:
 
 - **Split-screen layout**: Clean form interface with a vibrant illustration panel.
 - **Brand colors**: Torra Orange (#FF5101) with deep purple gradients.
