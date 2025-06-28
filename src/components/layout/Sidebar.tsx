@@ -4,7 +4,11 @@ export function Sidebar() {
   return (
     <div className="flex flex-col w-64 h-screen px-4 py-8 bg-gray-800 text-white">
       <div className="flex items-center justify-center">
-        <img src="/assets/main-logo.svg" alt="Lojas Torra" className="w-32" />
+        <img
+          src="/assets/logos/click-and-collect-logo.svg"
+          alt="Lojas Torra"
+          className="w-32"
+        />
       </div>
       <div className="flex flex-col justify-between mt-6">
         <aside>
